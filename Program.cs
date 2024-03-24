@@ -21,9 +21,9 @@ namespace APBD1
                 return 0;
 
             double sum = 0;
-            foreach (var number in numbers)
+            foreach (var num in numbers)
             {
-                sum += number;
+                sum += num;
             }
             return sum / numbers.Length;
         }
