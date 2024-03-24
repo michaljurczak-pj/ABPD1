@@ -20,12 +20,12 @@ namespace APBD1
             if (numbers.Length == 0)
                 return 0;
 
-            double total = 0;
+            double sum = 0;
             foreach (var number in numbers)
             {
-                total += number;
+                sum += number;
             }
-            return total / numbers.Length;
+            return sum / numbers.Length;
         }
 
         static int FindMax(int[] numbers)
